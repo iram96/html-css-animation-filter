@@ -111,6 +111,18 @@
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* Solution 10 */
+.ex-10-icon {
+    animation: ruota 1s infinite linear;
+}
+
+@keyframes ruota{
+    100%{
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
